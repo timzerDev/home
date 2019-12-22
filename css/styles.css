@@ -1,0 +1,149 @@
+html, body {
+    color: #202020;
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+h2 {
+    color: #2eacff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3, a {
+    color: #58bcff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h5 {
+    color: #58bcff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    line-height: 2;
+}
+
+.custom-hr {
+    border-style: dotted none none;
+    border-color: #bbf5ff;
+    border-width: 6px;
+    margin: 100px auto;
+    width: 7%;
+}
+
+/* Navbar */
+
+.navbar-brand {
+    font-family: 'Waiting for the Sunrise', cursive;
+    font-weight: 700;
+}
+
+#mainNavbar .navbar-brand{
+    color: #2eacff;
+}
+
+#mainNavbar{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link {
+    color: #2eacff;
+}
+
+#mainNavbar .nav-link:hover{
+    background-color: #2eacff;
+    color: #bbf5ff;
+    transition: 0.5s;
+}
+
+.navbar.scrolled {
+    background-color: #bbf5ff;
+    transition: 0.9s;
+}
+
+#mainNavbar .navbar-toggler{
+    width: 50px;
+    height: 36px;
+    border: none;
+}
+
+.navbar-toggler .line{
+    width: 100%;
+    float: left;
+    height: 2px;
+    background-color: #2eacff;
+    margin: 3px auto;
+}
+
+/* Title Section */
+
+#title {
+    background-color: #bbf5ff;
+    margin-bottom: 6.25rem;
+    padding-top: 9.375rem;
+}
+
+#title h1 {
+    color: #2eacff;
+    font-family: 'Waiting for the Sunrise', cursive;
+    font-size: 6.5rem;
+    margin: 50px auto 0px;
+}
+
+.aircraft {
+    position: absolute;
+    width: 175px;
+    top: 80px;
+    left: 230px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 50px;
+    bottom: 600px;
+}
+
+.img-fluid.island {
+    margin: 80px auto;
+}
+
+/* Skills Section */
+
+.img-custom {
+    max-width: 30%;
+}
+
+/* Contact Section */
+
+.btn-custom {
+    color: #194F82;
+    font-size: 50px;
+    margin: 50px;
+}
+
+.btn-custom:hover {
+    color: #2eacff;
+}
+
+/* Footer section */
+
+#footer {
+    text-align: center;
+    background-color: #2eacff;
+    color: #bbf5ff;
+    padding: 2.5rem;
+    font-size: 0.85rem;
+}
+
+#footer a {
+    color: #bbf5ff;
+}

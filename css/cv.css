@@ -1,0 +1,161 @@
+html, body {
+    color: #202020;
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3 {
+    color: #2eacff;
+    font-family: 'Roboto Slab', serif;
+}
+
+h4 {
+    color: #bbf5ff;
+}
+
+h5 {
+    font-weight: bold;
+}
+
+a {
+    color: #58bcff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    line-height: 2;
+}
+
+ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+.custom-hr {
+    border-style: dotted none none;
+    border-color: #bbf5ff;
+    border-width: 6px;
+    margin: 100px auto;
+    width: 7%;
+}
+
+/* Navbar */
+
+.navbar-brand {
+    font-family: 'Waiting for the Sunrise', cursive;
+    font-weight: 700;
+}
+
+#mainNavbar .navbar-brand{
+    color: #2eacff;
+}
+
+#mainNavbar{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link {
+    color: #2eacff;
+}
+
+#mainNavbar .nav-link:hover{
+    background-color: #2eacff;
+    color: #bbf5ff;
+    transition: 0.5s;
+}
+
+.navbar.scrolled {
+    background-color: #bbf5ff;
+    transition: 0.9s;
+}
+
+#mainNavbar .navbar-toggler{
+    width: 50px;
+    height: 36px;
+    border: none;
+}
+
+.navbar-toggler .line{
+    width: 100%;
+    float: left;
+    height: 2px;
+    background-color: #2eacff;
+    margin: 3px auto;
+}
+
+/* Title Section */
+
+#title {
+    background-color: #bbf5ff;
+    margin-bottom: 6.25rem;
+    padding: 9.375rem;
+}
+
+#title h1 {
+    color: #2eacff;
+    font-size: 6.5rem;
+    margin: 50px auto 0px;
+}
+
+/* Profile Section */
+
+#profile img {
+    border-radius: 50%;
+    box-shadow: 5px 5px 8px rgba(55, 55, 55, .5);
+}
+
+/* Skills Section */
+
+.skills-list {
+    background-color: #2eacff;
+    color: white;
+    padding: 0 25%;
+}
+
+.skills-heading {
+    margin-bottom: 30px;
+}
+
+.skill-box {
+    line-height: 1.8;
+}
+
+.hr-skills {
+    margin-bottom: 35px;
+}
+
+.img-custom {
+    max-width: 30%;
+}
+
+#desk-img {
+    margin-bottom: 60px;
+}
+
+/* Contact Section */
+
+.btn-custom {
+    color: #194F82;
+    font-size: 50px;
+    margin: 50px;
+}
+
+.btn-custom:hover {
+    color: #2eacff;
+}
+
+/* Footer section */
+
+#footer {
+    text-align: center;
+    background-color: #2eacff;
+    color: #bbf5ff;
+    padding: 2.5rem;
+    font-size: 0.85rem;
+}
+
+#footer a {
+    color: #bbf5ff;
+}
